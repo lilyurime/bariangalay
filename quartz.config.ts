@@ -28,28 +28,50 @@ const config: QuartzConfig = {
         code: "IBM Plex Mono",
       },
       colors: {
-        lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
-        },
-        darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
-        },
+        // lightMode: {
+        //   light: "#faf8f8",
+        //   lightgray: "#e5e5e5",
+        //   gray: "#b8b8b8",
+        //   darkgray: "#4e4e4e",
+        //   dark: "#2b2b2b",
+        //   secondary: "#284b63",
+        //   tertiary: "#84a59d",
+        //   highlight: "rgba(143, 159, 169, 0.15)",
+        //   textHighlight: "#fff23688",
+        // },
+        // darkMode: {
+        //   light: "#161618",
+        //   lightgray: "#393639",
+        //   gray: "#646464",
+        //   darkgray: "#d4d4d4",
+        //   dark: "#ebebec",
+        //   secondary: "#7b97aa",
+        //   tertiary: "#84a59d",
+        //   highlight: "rgba(143, 159, 169, 0.15)",
+        //   textHighlight: "#b3aa0288",
+        // },
+        darkMode: { // Rosé Pine Moon
+          light: "#232136", // base 
+          lightgray: "#2a273f", // surface 
+          gray: "#393552", // overlay 
+          darkgray: "#6e6a86", // muted (same) 
+          dark: "#e0def4", // text 
+          secondary: "#31748f", // pine 
+          tertiary: "#c4a7e5", // iris 
+          highlight: "#2a283e", // highlight low 
+          textHighlight: "#d7827e", // rose 
+        }, 
+        lightMode: { // Rosé Pine Dawn
+          light: "#faf4ed", // base 
+          lightgray: "#fffaf3", // surface 
+          gray: "#f2e9e1", // overlay 
+          darkgray: "#9893a5", // muted 
+          dark: "#575279", // text 
+          secondary: "#286983", // pine (dawn) 
+          tertiary: "#907aa9", // iris (dawn) 
+          highlight: "#f4ede8", // highlight low 
+          textHighlight:"#ea9a9788", //rose
+        }, 
       },
     },
   },
