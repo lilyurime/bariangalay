@@ -55,8 +55,8 @@ const config: QuartzConfig = {
           lightgray: "#2a273f", // surface 
           gray: "#6e6a86", // muted
           darkgray: "#e0def4", // text 
-          dark: "#31748f", // pine 
-          secondary: "#9ccfd8", // foam
+          dark: "#f6c177", // gold
+          secondary: "#ea9a97", // rose
           tertiary: "#c4a7e5", // iris 
           highlight: "#2a283e", // highlight low 
           textHighlight: "rgba(235,111,146, 0.53)" // love, 53% opacity 
@@ -66,8 +66,8 @@ const config: QuartzConfig = {
           lightgray: "#fffaf3", // surface 
           gray: "#9893a5", // muted 
           darkgray: "#575279", // text 
-          dark: "#286983", // pine 
-          secondary: "#56949f", // foam
+          dark: "#ea9d34", // gold
+          secondary: "#d7827e", // rose
           tertiary: "#907aa9", // iris 
           highlight: "#f4ede8", // highlight low 
           textHighlight:"rgba(180,99,122, 0.53)", // love, 53% opacity 
