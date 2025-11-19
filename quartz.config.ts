@@ -53,8 +53,8 @@ const config: QuartzConfig = {
         darkMode: { // Rosé Pine Moon
           light: "#232136", // base 
           lightgray: "#2a273f", // surface 
-          gray: "#e0def4", // text 
-          darkgray: "#6e6a86", // muted (same) 
+          gray: "#6e6a86", // muted
+          darkgray: "#e0def4", // text 
           dark: "#31748f", // pine 
           secondary: "#9ccfd8", // foam
           tertiary: "#c4a7e5", // iris 
@@ -64,8 +64,8 @@ const config: QuartzConfig = {
         lightMode: { // Rosé Pine Dawn
           light: "#faf4ed", // base 
           lightgray: "#fffaf3", // surface 
-          gray: "#575279", // text 
-          darkgray: "#9893a5", // muted 
+          gray: "#9893a5", // muted 
+          darkgray: "#575279", // text 
           dark: "#286983", // pine 
           secondary: "#56949f", // foam
           tertiary: "#907aa9", // iris 
