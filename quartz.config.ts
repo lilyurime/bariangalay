@@ -53,24 +53,24 @@ const config: QuartzConfig = {
         darkMode: { // Rosé Pine Moon
           light: "#232136", // base 
           lightgray: "#2a273f", // surface 
-          gray: "#393552", // overlay 
+          gray: "#e0def4", // text 
           darkgray: "#6e6a86", // muted (same) 
-          dark: "#e0def4", // text 
-          secondary: "#31748f", // pine 
+          dark: "#31748f", // pine 
+          secondary: "#9ccfd8", // foam
           tertiary: "#c4a7e5", // iris 
           highlight: "#2a283e", // highlight low 
-          textHighlight: "#d7827e", // rose 
+          textHighlight: "rgba(235,111,146, 0.53)" // love, 53% opacity 
         }, 
         lightMode: { // Rosé Pine Dawn
           light: "#faf4ed", // base 
           lightgray: "#fffaf3", // surface 
-          gray: "#f2e9e1", // overlay 
+          gray: "#575279", // text 
           darkgray: "#9893a5", // muted 
-          dark: "#575279", // text 
-          secondary: "#286983", // pine (dawn) 
-          tertiary: "#907aa9", // iris (dawn) 
+          dark: "#286983", // pine 
+          secondary: "#56949f", // foam
+          tertiary: "#907aa9", // iris 
           highlight: "#f4ede8", // highlight low 
-          textHighlight:"#ea9a9788", //rose
+          textHighlight:"rgba(180,99,122, 0.53)", // love, 53% opacity 
         }, 
       },
     },
